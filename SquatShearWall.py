@@ -10,8 +10,8 @@ import pandas  as pd; import pickle
 
 import os
 
-filename1 = 'https://raw.githubusercontent.com/imsb1371/ZCAprediction/refs/heads/main/Capture1.PNG'
-filename2 = 'https://raw.githubusercontent.com/imsb1371/ZCAprediction/refs/heads/main/Capture2.PNG'
+filename1 = 'https://raw.githubusercontent.com/nichoqu/SquatSW/refs/heads/main/Capture1.PNG'
+filename2 = 'https://raw.githubusercontent.com/nichoqu/SquatSW/refs/heads/main/Capture2.PNG'
 
 st.title('Probabilistic Hybrid Machine Learning Models for Predicting Shear Strength of Flanged Squat Reinforced Concrete Wallss')
 with st.container():
@@ -151,11 +151,11 @@ if st.button('Run'):
         # Display predictions
         col13, col14, col15 = st.columns(3)
         with col13:
-            st.write("Seah strength is: ", np.round(abs(Output1_real), decimals=2))
+            st.write("shear strength: ", np.round(abs(Output1_real), decimals=2))
 
 
-filename7 = 'https://raw.githubusercontent.com/imsb1371/ZCAprediction/refs/heads/main/Capture3.PNG'
-filename8 = 'https://raw.githubusercontent.com/imsb1371/ZCAprediction/refs/heads/main/Capture4.PNG'
+filename7 = 'https://raw.githubusercontent.com/nichoqu/SquatSW/refs/heads/main/Capture3.PNG'
+filename8 = 'https://raw.githubusercontent.com/nichoqu/SquatSW/refs/heads/main/Capture4.PNG'
 
 col22, col23 = st.columns(2)
 with col22:
